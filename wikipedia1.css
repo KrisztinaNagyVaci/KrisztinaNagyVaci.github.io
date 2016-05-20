@@ -1,0 +1,327 @@
+.containerbig{
+  display: inline-flex;
+  margin: 0px;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+aside{
+  width: 160px;
+  border-image: linear-gradient(to top, #A7D7F9, white) 1 100%;
+  padding-left:26px;
+  padding-right: 20px;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #F6F6F6 2%);
+  font-size: 12px;
+  line-height: 1.6em;
+}
+
+#logo{
+  padding-bottom: 23px;
+}
+
+.sidebox{
+  display: flex;
+  flex-flow: column;
+  border-bottom: 1px solid #DBDBDB;
+  padding-bottom: 12px;
+  padding-top: 5px;
+}
+
+.linkleft{
+  text-decoration: none;
+  text-indent: 10px;
+}
+
+.top{
+  text-indent: 5px;
+}
+
+main{
+  width: 100%;
+  display: inline-flex;
+  flex-flow: column;
+}
+
+.contentsheader{
+  text-align: center;
+  padding-top: 6px;
+}
+
+.contents{
+  height: 263px;
+  width: 120px;
+  border: 1px solid #AAAAAA;
+  background-color: #F9F9F9;
+  font-size: 13px;
+  padding: 6px;
+  line-height: 10px;
+}
+
+.contents ol{
+  counter-reset: item;
+  padding-left: 5px;
+}
+
+.contents li{
+  display: block;
+  line-height: 20px;
+}
+
+.contents li:before {
+  content: counters(item, ".") " "; counter-increment: item;
+}
+
+.image1{
+  float: right;
+  border: 1px solid #AAAAAA;
+  width: 270px;
+  height: 520px;
+  margin-left: 26px;
+  background-color: #F9F9F9;
+}
+
+.first{
+  width: 220px;
+  height: 277px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.imageheader{
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+}
+
+.imagefooter{
+  font-size: 12px;
+  text-align: center;
+  padding: 2px;
+}
+
+table{
+  font-size: 13px;
+  padding: 3px 4px 5px;
+}
+
+th{
+  vertical-align: text-top;
+  text-align: left;
+}
+
+.image2{
+  float: right;
+  border: 1px solid #AAAAAA;
+  background-color: #F9F9F9;
+  width: 226px;
+  height: 221px;
+  margin-left: 26px;
+}
+
+.second{
+  width: 220px;
+  height: 170px;
+  margin: 3px;
+}
+
+.nocenter{
+  text-align: left;
+  padding: 3px;
+  line-height: 1.5em;
+}
+
+.image3{
+  float: right;
+  border: 1px solid #AAAAAA;
+  background-color: #F9F9F9;
+  width: 226px;
+  height: 346px;
+  margin-left: 26px;
+}
+
+.third{
+  width: 220px;
+  height: 280px;
+  margin: 2px;
+  border: 1px solid #AAAAAA;
+}
+
+.image4{
+  float: right;
+  margin-left: 26px;
+  margin-top: 15px;
+  border: 1px solid #AAAAAA;
+  background-color: #F9F9F9;
+  width: 186px;
+  height: 286px;
+}
+
+.fourth{
+  border: 1px solid #AAAAAA;
+  width: 180px;
+  height: 238px;
+  margin: 2px;
+}
+
+header{
+  height: 80px;
+  border-bottom: 1px solid #A7D7F9;
+  font-size: 13px;
+}
+
+.headerupper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerlower{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #F6F6F6 100%);
+}
+
+.headerlowerleft{
+  display: flex;
+}
+
+.headerlowerright{
+  display: flex;
+}
+
+.box{
+  height: 40px;
+  display: flex;
+  padding-right: 23px;
+}
+
+.infolog{
+  color: grey;
+}
+
+.linkupper{
+  padding: 5px 3px 8px;
+  text-decoration: none;
+}
+
+.linklower{
+    padding: 12px 3px 1px;
+    text-decoration: none;
+    display: inline;
+    border-right: 1px solid #A7D7F9;
+}
+
+.leftlink{
+  border-left: 1px solid #A7D7F9;
+}
+
+.search{
+  width: 297px;
+  height: 24px;
+  margin: 10px 3px 4px;
+}
+
+article{
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+h1, h2{
+  border-bottom: 1px solid #AAAAAA;
+  font-family: "Times New Roman";
+  font-weight: normal;
+}
+
+h2{
+  margin-bottom: 0px;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h5{
+  margin-top: -25px;
+  font-weight: normal;
+}
+
+h3{
+  margin-bottom: -2px;
+}
+
+h6{
+  font-weight: normal;
+}
+
+.bottomlist{
+  font-size: 14px;
+  line-height: 1.8em;
+  text-indent: -2px;
+  padding-left: 30px;
+}
+
+.source{
+  padding-left: 25px;
+}
+
+footer{
+  height: 150px;
+  background-color: #F6F6F6;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.footer2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerleft p a{
+  font-size: 12px;
+}
+
+.lowerbuttons{
+  width: 88px;
+  height: 31px;
+}
+
+:target{
+  background-color: #3381d6;
+}
+
+a.hoverbubble span {
+  display: none;
+}
+
+a.hoverbubble {
+  position: relative;
+}
+
+a.hoverbubble:hover span {
+display: block;
+position: absolute;
+width: 300px;
+height: 40px;
+padding: 0.5em;
+top: -67px;
+left: 20px;
+background: white;
+color: black;
+border: 1px solid blue;
+font-family: sans-serif;
+}
